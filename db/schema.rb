@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171214152136) do
+ActiveRecord::Schema.define(version: 20171227203629) do
 
   create_table "articles", force: :cascade do |t|
     t.string   "guid",                      limit: 255,        null: false
@@ -751,10 +751,9 @@ ActiveRecord::Schema.define(version: 20171214152136) do
   end
 
   create_table "term_queries", force: :cascade do |t|
-    t.string   "pairs",      limit: 255
     t.integer  "clade",      limit: 4
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
   end
 
   create_table "term_query_pairs", force: :cascade do |t|
