@@ -22,7 +22,7 @@ administrator needs to do the following:
 
     rails r 'User.find_by_email("you@you.you").grant_power_user'
 
-where you@you.you is the email address for your account on the EOL site.
+where you@you.you is the email address for your account on the EOL site. Please contact hammockj AT si.edu
 
 ## Getting a token
 
